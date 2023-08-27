@@ -19,5 +19,6 @@ Files containing Monty byte codes usually have the .m extension. Most of the ind
 * [Difference between Stack and Queue Data Structures](https://www.geeksforgeeks.org/difference-between-stack-and-queue-data-structures/) ||
 
 ## Authors/Collaborators
+
 [Ephesians Lewis](https://github.com/ca-det) || [Guav Gharddammez](https://github.com/Gharddammez/)
-=======
+
