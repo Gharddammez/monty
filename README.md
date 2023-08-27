@@ -21,4 +21,3 @@ Files containing Monty byte codes usually have the .m extension. Most of the ind
 ## Authors/Collaborators
 [Ephesians Lewis](https://github.com/ca-det) || [Guav Gharddammez](https://github.com/Gharddammez/)
 =======
->>>>>>> 6916294ac2350816ee76e53de58f8c022087b661
