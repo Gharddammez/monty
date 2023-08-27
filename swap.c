@@ -1,19 +1,19 @@
 #include "monty.h"
 /**
- * f_swap - adds the top two elements of the stack.
+ * f_swap - adds the top two elements of the stack
  * @head: stack head
  * @counter: line_number
  * Return: no return
 */
 void f_swap(stack_t **head, unsigned int counter)
 {
-	stack_t *h;
-	int len = 0, aux;
+	stack_t *ptr;
+	int len = 0, val;
 
-	h = *head;
-	while (h)
+	ptr = *head;
+	while (ptr)
 	{
-		h = h->next;
+		ptr = ptr->next;
 		len++;
 	}
 	if (len < 2)
@@ -24,8 +24,8 @@ void f_swap(stack_t **head, unsigned int counter)
 		free_stack(*head);
 		exit(EXIT_FAILURE);
 	}
-	h = *head;
-	aux = h->n;
-	h->n = h->next->n;
-	h->next->n = aux;
+	ptr = *head;
+	val = ptr->n;
+	ptr->n = ptr->next->n;
+	ptr->next->n = val;
 }
