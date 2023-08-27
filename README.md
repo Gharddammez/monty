@@ -4,7 +4,7 @@
 Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it.
 
 ### Monty byte code files
-Files containing Monty byte codes usually have the .m extension. Most of the industry uses this standard but it is not required by the specification of the language. There is not more than one instruction per line. There can be any number of spaces before or after the opcode and its argument: [examples](#Examples)
+Files containing Monty byte codes usually have the .m extension. Most of the industry uses this standard but it is not required by the specification of the language. There is not more than one instruction per line. There can be any number of spaces before or after the opcode and its argument
 
 ## Objectives:
 * To know what LIFO and FIFO mean
@@ -14,8 +14,11 @@ Files containing Monty byte codes usually have the .m extension. Most of the ind
 * To know the most common use cases of stacks and queues
 * To know the proper way to use global variables
 
+<<<<<<< HEAD
 ### Resource:
 * [Difference between Stack and Queue Data Structures](https://www.geeksforgeeks.org/difference-between-stack-and-queue-data-structures/) ||
 
 ## Authors/Collaborators
 [Ephesians Lewis](https://github.com/ca-det) || [Guav Gharddammez](https://github.com/Gharddammez/)
+=======
+>>>>>>> 6916294ac2350816ee76e53de58f8c022087b661
